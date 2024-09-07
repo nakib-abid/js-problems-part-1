@@ -25,3 +25,7 @@ console.log(Math.random());
 console.log(Math.random()*20);
 const rand = Math.round(Math.random()*10);
 console.log(rand);
+
+// generate random number
+const randomNumber = Math.floor(Math.random() * (20 - 10)) + 10;  
+console.log(randomNumber);
